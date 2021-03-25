@@ -1,8 +1,3 @@
-:root {
-  --secondary-Main: #F9BE73;
-  --font-Color: #505050;
-}
-
 .iconUser {
   color: var(--secondary-Main);
   width: 54px;

@@ -43,7 +43,7 @@ const Home = () => {
   return (
     <>
       <Header />
-      <div className="container">
+      <div className="home-container">
         <div className="img">
           <Schedule />
         </div>

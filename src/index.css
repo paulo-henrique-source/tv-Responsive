@@ -1,3 +1,13 @@
+:root {
+  --primary-Dark: #219A97;
+  --primary-Linear: rgba(0, 154, 149, 1);
+  --font-Color: #505050;
+  --code-Color: #5F6368;
+  --background-Schedule: #F4E2CC;
+  --background-Main: #FFFFFF;
+  --secondary-Main: #F9BE73;
+}
+
 * {
   padding: 0;
   margin: 0;

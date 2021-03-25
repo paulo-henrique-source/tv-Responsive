@@ -1,14 +1,9 @@
-:root {
-  --font-Color: #505050;
-  --code-Color: #5F6368;
-  --background-Schedule: #F4E2CC;
-}
-
-.container {
+.home-container {
   width: 100vw;
   height: 100vh;
   display: grid;
   grid-template-columns: 50% 50%;
+  overflow: hidden;
 }
 
 .imageItem {
@@ -18,19 +13,10 @@
 .gridTemplateTwo {
   display: flex;
   justify-content: center;
-  margin-top: 40px;
 }
 
 .login-text {
-  margin-top: 30px;
-}
-
-.logo {
-  width: 300px;
-}
-
-.medicineCuate {
-  width: 670px;
+  margin-top: 10px;
 }
 
 .img {
@@ -44,7 +30,7 @@
 .gridTemplateTwo h2 {
   margin-top: 10px;
   color: var(--font-Color);
-  font-size: 2.9rem;
+  font-size: 2rem;
   font-weight: 700;
 }
 
@@ -85,7 +71,7 @@
   color: var(--font-Color);
 }
 
-@media screen and (max-width: 5120px) {
+/* @media screen and (max-width: 5120px) {
   .container {
     width: 100vw;
     height: 100vh;
@@ -332,7 +318,7 @@
     width: 400px;
     margin: 0 auto;
   }
-}
+} */
 
 /* @media screen and (max-width: 900px) {
   .container {

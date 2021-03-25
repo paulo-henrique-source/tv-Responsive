@@ -1,0 +1,36 @@
+.iconUserCard {
+  color: var(--primary-Linear);
+  font-size: 40px;
+  width: 54px;
+  height: 54px;
+}
+
+.iconDoorCard {
+  color: var(--primary-Linear);
+  font-size: 50px;
+  padding-bottom: 20px;
+  width: 60px;
+  height: 90px;
+}
+
+.roomIndicator {
+  margin-top: 10px;
+}
+
+.nameIndicator {
+  font-size: 40px;
+  margin-top: 10px;
+}
+
+.card-container {
+  margin: 25px;
+  padding-top: 30px;
+  display: grid;
+  grid-template-columns: 70px 450px 80px 330px;
+  background: linear-gradient(105deg, #F5F5F5 65%, #D4EEEE 35%);
+  width: 820px;
+  padding-left: 50px;
+  border-radius: 426px;
+  font-size: 35px;
+  color: var(--font-Color)
+}
