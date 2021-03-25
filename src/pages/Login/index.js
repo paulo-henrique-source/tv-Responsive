@@ -36,7 +36,9 @@ const Login = () => {
               <p>
                 01. Acesse seu sistema:
                 <br />
-                <b>sistema.homologação.apphealth.com.br/#/perfil/unidade</b>
+                <b className="text-link">
+                  sistema.homologação.apphealth.com.br/#/perfil/unidade
+                </b>
               </p>
             </div>
             <div className="text-component">
