@@ -277,7 +277,6 @@
 @media screen and (max-width: 1024px) {
   .login-content h2 {
     font-weight: 700;
-    margin-top: 4px;
     color: var(--font-Color);
     font-size: 3rem;
   }
@@ -291,7 +290,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(to bottom, #219A97 78%, #EBEBEB 22%);
+    background: linear-gradient(to bottom, #219A97 77%, #EBEBEB 23%);
   }
   .text-component-title {
     padding-bottom: 10px;
@@ -302,8 +301,11 @@
     padding-bottom: 48px;
     font-weight: 400;
     font-size: 1.1rem;
-    width: 500px;
+    width: 490px;
     margin: 0 auto;
+  }
+  .text-link {
+    word-wrap: break-word;
   }
   .code-component {
     margin-top: 10px;
