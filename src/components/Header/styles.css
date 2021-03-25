@@ -1,0 +1,68 @@
+:root {
+  --primary-Dark: #219A97;
+  --primary-Linear: rgba(0, 154, 149, 1);
+  --font-Color: #505050;
+  --code-Color: #5F6368;
+  --background-Schedule: #F4E2CC;
+  --background-Main: #FFFFFF;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 160px 800px 880px;
+  background: linear-gradient(to right, #219A97 0, #219A97 8%, #26ACA9 8%, #26ACA9 50%, #D4EEEE 50%, #D4EEEE 100%);
+  width: 100vw;
+  height: 164px;
+  padding: 20px;
+  font-size: 37px;
+  color: var(--font-Color);
+}
+
+.logoSmall {
+  width: 120px;
+  height: 120px;
+}
+
+.titleHeader {
+  display: grid;
+  grid-template-rows: 40px 52px;
+  height: 85px;
+  margin-top: 15px;
+  width: 500px;
+  font-size: 30px;
+  color: var(--background-Main);
+}
+
+.companyHeader {
+  font-weight: 700;
+  margin-top: 15px;
+}
+
+.timer {
+  display: grid;
+  grid-template-columns: 600px 200px;
+  font-size: 26px;
+  margin-top: 20px;
+}
+
+.clock {
+  color: #16171A;
+  font-weight: 500;
+}
+
+.hour {
+  display: grid;
+  grid-template-columns: 190px 100px;
+  padding-left: 40px;
+}
+
+.formatHour {
+  font-size: 75px;
+  color: #16171A;
+}
+
+.formatIndicator {
+  font-size: 30px;
+  color: #16171A;
+  padding-top: 55px;
+}

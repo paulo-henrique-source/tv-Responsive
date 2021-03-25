@@ -1,0 +1,50 @@
+:root {
+  --secondary-Main: #F9BE73;
+  --font-Color: #505050;
+}
+
+.iconUser {
+  color: var(--secondary-Main);
+  width: 54px;
+  height: 54px;
+}
+
+.iconDoor {
+  color: var(--secondary-Main);
+  width: 60px;
+  height: 90px;
+}
+
+.container-schedule {
+  margin: 20px;
+  display: grid;
+  grid-template-rows: 10% 90%;
+  background: linear-gradient(to top, #FFFFFF 86%, #F9BE73 14%);
+  width: 694px;
+  height: 676px;
+  padding-left: 20px;
+  padding: 12px;
+  border-radius: 51px;
+}
+
+.header {
+  margin-top: 20px;
+  margin-left: 20px;
+  color: white;
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.gridContainer {
+  display: grid;
+  grid-template-columns: 100px 400px;
+  margin-top: 150px;
+  margin-left: 60px;
+}
+
+.userText {
+  font-size: 70px;
+  height: 60px;
+  width: 300px;
+  color: var(--font-Color)
+}

@@ -10,6 +10,8 @@ const theme = createMuiTheme({
       main: '#26ACA9',
       light: 'rgba(38, 172, 169, 0.2)',
       dark: '#219A97',
+      linear: 'rgba(0, 154, 149, 1)',
+      card: '#D4EEEE',
     },
     secondary: {
       main: '#F9BE73',

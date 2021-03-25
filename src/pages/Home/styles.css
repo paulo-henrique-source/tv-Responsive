@@ -1,23 +1,28 @@
 :root {
   --font-Color: #505050;
   --code-Color: #5F6368;
+  --background-Schedule: #F4E2CC;
 }
 
 .container {
   width: 100vw;
   height: 100vh;
   display: grid;
-  grid-template-columns: 45% 55%;
+  grid-template-columns: 50% 50%;
 }
 
 .imageItem {
   margin: 0 auto;
 }
 
-.login-content {
+.gridTemplateTwo {
   display: flex;
   justify-content: center;
-  padding: 94px;
+  margin-top: 40px;
+}
+
+.login-text {
+  margin-top: 30px;
 }
 
 .logo {
@@ -32,10 +37,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(to bottom, #219A97 83%, #EBEBEB 17%);
+  background: var(--background-Schedule);
+  padding-bottom: 180px;
 }
 
-.login-content h2 {
+.gridTemplateTwo h2 {
   margin-top: 10px;
   color: var(--font-Color);
   font-size: 2.9rem;
@@ -73,15 +79,21 @@
   text-decoration: underline;
 }
 
+.patients {
+  margin: 20px 60px;
+  font-size: 35px;
+  color: var(--font-Color);
+}
+
 @media screen and (max-width: 5120px) {
   .container {
     width: 100vw;
     height: 100vh;
     display: grid;
-    grid-template-columns: 45% 55%;
+    grid-template-columns: 50% 50%;
     overflow: hidden;
   }
-  .login-content h2 {
+  .gridTemplateTwo h2 {
     color: var(--font-Color);
     font-weight: 700;
     font-size: 10rem;
@@ -129,10 +141,10 @@
     width: 100vw;
     height: 100vh;
     display: grid;
-    grid-template-columns: 45% 55%;
+    grid-template-columns: 50% 50%;
     overflow: hidden;
   }
-  .login-content h2 {
+  .gridTemplateTwo h2 {
     color: var(--font-Color);
     font-weight: 700;
     font-size: 9rem;
@@ -181,10 +193,10 @@
     width: 100vw;
     height: 100vh;
     display: grid;
-    grid-template-columns: 45% 55%;
+    grid-template-columns: 50% 50%;
     overflow: hidden;
   }
-  .login-content h2 {
+  .gridTemplateTwo h2 {
     color: var(--font-Color);
     font-weight: 700;
     font-size: 7.4rem;
@@ -229,7 +241,7 @@
 }
 
 @media screen and (max-width: 1920px) {
-  .login-content h2 {
+  .gridTemplateTwo h2 {
     color: var(--font-Color);
     font-weight: 700;
     font-size: 2.4rem;
@@ -245,7 +257,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(to bottom, #219A97 83%, #EBEBEB 17%);
+    background: var(--background-Schedule);
   }
   .text-component-title {
     margin-bottom: 40px;
@@ -274,10 +286,10 @@
 }
 
 @media screen and (max-width: 1024px) {
-  .login-content h2 {
+  .gridTemplateTwo h2 {
     font-weight: 700;
     color: var(--font-Color);
-    font-size: 3rem;
+    font-size: 1rem;
   }
   .logo {
     width: 300px;
@@ -322,7 +334,7 @@
   }
 }
 
-@media screen and (max-width: 900px) {
+/* @media screen and (max-width: 900px) {
   .container {
     grid-template-columns: 1fr;
   }
@@ -335,7 +347,7 @@
   .wave {
     display: none;
   }
-  .login-content {
+  .gridTemplateTwo {
     justify-content: center;
   }
-}
+} */
