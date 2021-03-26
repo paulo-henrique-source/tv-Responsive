@@ -154,7 +154,7 @@
     justify-content: center;
   }
   .gridTemplateContent {
-    margin-top: 40px;
+    margin-top: 5px;
   }
   .home-content {
     display: flex;
@@ -164,19 +164,22 @@
     padding-bottom: 180px;
   }
   .gridTemplateTwo h2 {
-    margin-top: 10px;
+    margin-top: 0px;
     color: var(--font-Color);
     font-size: 2rem;
     font-weight: 700;
   }
   .patients {
-    margin: 10px 20px;
+    margin: 30px 20px;
     font-size: 40px;
     color: var(--font-Color);
   }
 }
 
 @media screen and (max-width: 1024px) {
+  .home-master {
+    overflow: hidden;
+  }
   .home-container {
     width: 100vw;
     height: 100vh;

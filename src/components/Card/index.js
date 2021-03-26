@@ -11,7 +11,7 @@ const Card = ({ name }) => {
           <FaUser className="iconUserCard" />
         </div>
         <div className="nameIndicator">
-          <h6>{name}</h6>
+          <div>{name}</div>
         </div>
         <div>
           <RiDoorClosedLine className="iconDoorCard" />

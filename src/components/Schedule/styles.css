@@ -209,17 +209,19 @@
 @media screen and (max-width: 1920px) {
   .iconUser {
     color: var(--secondary-Main);
-    width: 100px;
-    height: 100px;
+    width: 70px;
+    height: 70px;
   }
   .iconDoor {
     color: var(--secondary-Main);
-    width: 100px;
-    height: 130px;
+    margin-top: 110px;
+    width: 80px;
+    height: 80px;
     margin-bottom: 400px;
   }
   .container-schedule {
     margin: 10px;
+    margin-top: 60px;
     display: grid;
     grid-template-rows: 10% 90%;
     background: linear-gradient(to top, #FFFFFF 86%, #F9BE73 14%);
@@ -231,7 +233,7 @@
   }
   .header {
     margin-top: 10px;
-    margin-left: 10px;
+    margin-left: 35px;
     color: white;
     font-weight: 700;
     font-size: 20px;
@@ -239,20 +241,20 @@
   .gridContainer {
     display: grid;
     grid-template-columns: 50px 1000px;
-    margin-top: 75px;
+    margin-top: 100px;
     margin-left: 30px;
   }
   .userText {
-    font-size: 60px;
+    font-size: 80px;
     height: 30px;
-    width: 350px;
+    width: 400px;
     color: var(--font-Color)
   }
   .doorText {
-    font-size: 60px;
+    font-size: 70px;
     height: 30px;
     width: 350px;
-    margin-top: 140px;
+    margin-top: 200px;
     color: var(--font-Color)
   }
 }
@@ -267,7 +269,6 @@
     color: var(--secondary-Main);
     width: 50px;
     height: 50px;
-    margin-top: 45px;
   }
   .container-schedule {
     margin: 10px;
@@ -294,13 +295,13 @@
     margin-left: 20px;
   }
   .userText {
-    font-size: 30px;
+    font-size: 37px;
     height: 30px;
     width: 150px;
     color: var(--font-Color)
   }
   .doorText {
-    font-size: 30px;
+    font-size: 37px;
     height: 30px;
     width: 150px;
     margin-top: 95px;

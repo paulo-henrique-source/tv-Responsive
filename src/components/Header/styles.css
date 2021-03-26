@@ -96,7 +96,7 @@
   }
   .hour {
     display: grid;
-    grid-template-columns: 600px 200px;
+    grid-template-columns: 505px 200px;
     padding-left: 50px;
   }
   .formatHour {
@@ -149,7 +149,7 @@
   }
   .hour {
     display: grid;
-    grid-template-columns: 400px 200px;
+    grid-template-columns: 325px 200px;
     padding-left: 50px;
   }
   .formatHour {
@@ -201,7 +201,7 @@
   }
   .hour {
     display: grid;
-    grid-template-columns: 300px 100px;
+    grid-template-columns: 245px 100px;
     padding-left: 28px;
   }
   .formatHour {
@@ -218,7 +218,7 @@
 @media screen and (max-width: 1920px) {
   .header-container {
     display: grid;
-    grid-template-columns: 150px 630px 220px;
+    grid-template-columns: 150px 670px 220px;
     background: linear-gradient(to right, #219A97 0, #219A97 7%, #26ACA9 7%, #26ACA9 40%, #D4EEEE 40%, #D4EEEE 100%);
     width: 100vw;
     height: 130px;
@@ -227,15 +227,17 @@
     color: var(--font-Color);
   }
   .logoSmall {
-    width: 110px;
-    height: 110px;
+    padding-left: 10px;
+    padding-top: 10px;
+    width: 100px;
+    height: 100px;
   }
   .titleHeader {
     display: grid;
     grid-template-rows: 40px 42px;
     height: 150px;
     width: 500px;
-    font-size: 35px;
+    font-size: 30px;
     color: var(--background-Main);
   }
   .companyHeader {
@@ -244,8 +246,8 @@
   }
   .timer {
     display: grid;
-    grid-template-columns: 840px 200px;
-    font-size: 35px;
+    grid-template-columns: 750px 200px;
+    font-size: 30px;
     margin-top: 15px;
   }
   .clock {
@@ -254,7 +256,7 @@
   }
   .hour {
     display: grid;
-    grid-template-columns: 150px 100px;
+    grid-template-rows: 100px 100px;
     padding-left: 28px;
   }
   .formatHour {
@@ -307,7 +309,7 @@
   }
   .hour {
     display: grid;
-    grid-template-columns: 100px 100px;
+    grid-template-columns: 85px 100px;
     padding-left: 28px;
   }
   .formatHour {

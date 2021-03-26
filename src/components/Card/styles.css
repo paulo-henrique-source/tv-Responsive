@@ -23,8 +23,7 @@
 }
 
 .card-container {
-  margin: 25px;
-  padding-top: 10px;
+  margin: 0px 25px;
   display: grid;
   grid-template-columns: 70px 450px 80px 330px;
   background: linear-gradient(105deg, #F5F5F5 65%, #D4EEEE 35%);
@@ -165,11 +164,13 @@
     font-size: 35px;
   }
   .nameIndicator {
-    font-size: 50px;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 60px;
     margin-top: 20px;
   }
   .card-container {
-    margin: 50px;
+    margin: 40px 50px;
     display: grid;
     grid-template-columns: 60px 550px 40px 300px;
     background: linear-gradient(105deg, #F5F5F5 65%, #D4EEEE 35%);
@@ -196,17 +197,19 @@
   .roomIndicator {
     margin-top: 25px;
     font-size: 22px;
+    width: 500px;
   }
   .nameIndicator {
     font-size: 22px;
-    margin-top: 25px;
+    margin-top: 10px;
+    width: 500px;
   }
   .card-container {
     margin: 15px;
     display: grid;
-    grid-template-columns: 50px 270px 40px 100px;
+    grid-template-columns: 50px 330px 40px 100px;
     background: linear-gradient(105deg, #F5F5F5 65%, #D4EEEE 35%);
-    width: 500px;
+    width: 600px;
     padding-left: 25px;
     padding-top: 10px;
     border-radius: 213px;

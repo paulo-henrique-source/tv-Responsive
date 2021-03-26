@@ -256,7 +256,7 @@
   .code-component {
     margin-top: 60px;
     display: flex;
-    font-size: 20px;
+    font-size: 30px;
     justify-content: center;
     align-items: center;
     letter-spacing: 2rem;
@@ -304,7 +304,7 @@
   .code-component {
     margin-top: 10px;
     display: flex;
-    font-size: 8px;
+    font-size: 11px;
     justify-content: center;
     align-items: center;
     letter-spacing: 1.5rem;
@@ -325,9 +325,6 @@
     display: none;
   }
   .medicineCuate {
-    display: none;
-  }
-  .wave {
     display: none;
   }
   .login-content {

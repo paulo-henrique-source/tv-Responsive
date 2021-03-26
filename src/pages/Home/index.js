@@ -42,17 +42,19 @@ const Home = () => {
   }
   return (
     <>
-      <Header />
-      <div className="home-container">
-        <div className="home-content">
-          <Schedule />
-        </div>
-        <div className="gridTemplateTwo">
-          <div className="gridTemplateContent">
-            <div>
-              <h3 className="patients">Pacientes Chamados:</h3>
+      <div className="home-master">
+        <Header />
+        <div className="home-container">
+          <div className="home-content">
+            <Schedule />
+          </div>
+          <div className="gridTemplateTwo">
+            <div className="gridTemplateContent">
+              <div>
+                <h3 className="patients">Pacientes Chamados:</h3>
+              </div>
+              <div>{renderCards()}</div>
             </div>
-            <div>{renderCards()}</div>
           </div>
         </div>
       </div>
