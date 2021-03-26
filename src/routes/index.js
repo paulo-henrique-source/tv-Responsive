@@ -10,8 +10,6 @@ const Routes = () => {
       <Route path="/" exact component={Login} />
       <Route path="/home" exact component={Home} />
       <Route component={NotFound} />
-
-      {/* <Route Layout={Dashboard} isPrivate component={NotFound} /> */}
     </Switch>
   )
 }
