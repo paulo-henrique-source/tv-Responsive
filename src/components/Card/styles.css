@@ -24,7 +24,7 @@
 
 .card-container {
   margin: 25px;
-  padding-top: 30px;
+  padding-top: 10px;
   display: grid;
   grid-template-columns: 70px 450px 80px 330px;
   background: linear-gradient(105deg, #F5F5F5 65%, #D4EEEE 35%);
@@ -33,4 +33,184 @@
   border-radius: 426px;
   font-size: 35px;
   color: var(--font-Color)
+}
+
+@media screen and (max-width: 5120px) {
+  .iconUserCard {
+    color: var(--primary-Linear);
+    font-size: 100px;
+    width: 120px;
+    height: 120px;
+    margin-top: 20px;
+  }
+  .iconDoorCard {
+    color: var(--primary-Linear);
+    font-size: 100px;
+    padding-bottom: 40px;
+    width: 140px;
+    height: 200px;
+  }
+  .roomIndicator {
+    margin-top: 20px;
+  }
+  .nameIndicator {
+    font-size: 80px;
+    margin-top: 20px;
+  }
+  .card-container {
+    margin: 50px;
+    padding-top: 20px;
+    display: grid;
+    grid-template-columns: 140px 1600px 160px 660px;
+    background: linear-gradient(105deg, #F5F5F5 65%, #D4EEEE 35%);
+    width: 2600px;
+    padding-left: 100px;
+    border-radius: 852px;
+    font-size: 100px;
+    color: var(--font-Color)
+  }
+}
+
+@media screen and (max-width: 4096px) {
+  .iconUserCard {
+    color: var(--primary-Linear);
+    font-size: 100px;
+    width: 94px;
+    height: 94px;
+    margin-top: 20px;
+  }
+  .iconDoorCard {
+    color: var(--primary-Linear);
+    font-size: 100px;
+    padding-bottom: 40px;
+    width: 120px;
+    height: 180px;
+  }
+  .roomIndicator {
+    margin-top: 20px;
+  }
+  .nameIndicator {
+    font-size: 80px;
+    margin-top: 20px;
+  }
+  .card-container {
+    margin: 50px;
+    padding-top: 20px;
+    display: grid;
+    grid-template-columns: 140px 1200px 160px 660px;
+    background: linear-gradient(105deg, #F5F5F5 65%, #D4EEEE 35%);
+    width: 2000px;
+    padding-left: 100px;
+    border-radius: 852px;
+    font-size: 70px;
+    color: var(--font-Color)
+  }
+}
+
+@media screen and (max-width: 3840px) {
+  .iconUserCard {
+    color: var(--primary-Linear);
+    font-size: 100px;
+    width: 94px;
+    height: 94px;
+    margin-top: 20px;
+  }
+  .iconDoorCard {
+    color: var(--primary-Linear);
+    font-size: 100px;
+    padding-bottom: 40px;
+    width: 120px;
+    height: 180px;
+  }
+  .roomIndicator {
+    margin-top: 20px;
+  }
+  .nameIndicator {
+    font-size: 80px;
+    margin-top: 20px;
+  }
+  .card-container {
+    margin: 50px;
+    padding-top: 20px;
+    display: grid;
+    grid-template-columns: 140px 1000px 160px 660px;
+    background: linear-gradient(105deg, #F5F5F5 65%, #D4EEEE 35%);
+    width: 1840px;
+    padding-left: 100px;
+    border-radius: 852px;
+    font-size: 70px;
+    color: var(--font-Color)
+  }
+}
+
+@media screen and (max-width: 1920px) {
+  .iconUserCard {
+    color: var(--primary-Linear);
+    font-size: 50px;
+    width: 50px;
+    height: 50px;
+    padding-bottom: 10px;
+  }
+  .iconDoorCard {
+    color: var(--primary-Linear);
+    font-size: 35px;
+    padding-bottom: 15px;
+    width: 65px;
+    height: 65px;
+    margin-top: 15px;
+  }
+  .roomIndicator {
+    margin-top: 15px;
+    margin-left: 20px;
+    font-size: 35px;
+  }
+  .nameIndicator {
+    font-size: 50px;
+    margin-top: 20px;
+  }
+  .card-container {
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 60px 550px 40px 300px;
+    background: linear-gradient(105deg, #F5F5F5 65%, #D4EEEE 35%);
+    width: 900px;
+    padding-left: 25px;
+    padding-top: 10px;
+    border-radius: 213px;
+    font-size: 25px;
+    color: var(--font-Color)
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .iconUserCard {
+    color: var(--primary-Linear);
+    width: 45px;
+    height: 45px;
+  }
+  .iconDoorCard {
+    color: var(--primary-Linear);
+    width: 45px;
+    height: 60px;
+  }
+  .roomIndicator {
+    margin-top: 25px;
+    font-size: 22px;
+  }
+  .nameIndicator {
+    font-size: 22px;
+    margin-top: 25px;
+  }
+  .card-container {
+    margin: 15px;
+    display: grid;
+    grid-template-columns: 50px 270px 40px 100px;
+    background: linear-gradient(105deg, #F5F5F5 65%, #D4EEEE 35%);
+    width: 500px;
+    padding-left: 25px;
+    padding-top: 10px;
+    border-radius: 213px;
+    font-size: 10px;
+    color: var(--font-Color)
+  }
 }

@@ -10,10 +10,9 @@ import Card from '../components/Card'
 const Routes = () => {
   return (
     <Switch>
-      {/* <Route Layout={Auth} path="/" exact component={SignIn} /> */}
       <Route path="/login" component={Login} />
       <Route path="/" component={Home} />
-      {/* <Route path="/" component={Header} /> */}
+      {/* <Route path="/" component={Schedule} /> */}
 
       {/* <Route Layout={Dashboard} isPrivate component={NotFound} /> */}
     </Switch>

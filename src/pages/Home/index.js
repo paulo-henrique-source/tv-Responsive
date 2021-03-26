@@ -44,11 +44,11 @@ const Home = () => {
     <>
       <Header />
       <div className="home-container">
-        <div className="img">
+        <div className="home-content">
           <Schedule />
         </div>
         <div className="gridTemplateTwo">
-          <div className="login-text">
+          <div className="gridTemplateContent">
             <div>
               <h3 className="patients">Pacientes Chamados:</h3>
             </div>

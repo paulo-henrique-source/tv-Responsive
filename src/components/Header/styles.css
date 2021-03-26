@@ -56,3 +56,267 @@
   color: #16171A;
   padding-top: 48px;
 }
+
+@media screen and (max-width: 5120px) {
+  .header-container {
+    display: grid;
+    grid-template-columns: 400px 1700px 400px;
+    background: linear-gradient(to right, #219A97 0, #219A97 7%, #26ACA9 7%, #26ACA9 40%, #D4EEEE 40%, #D4EEEE 100%);
+    width: 100vw;
+    height: 400px;
+    padding: 28px;
+    font-size: 18px;
+    color: var(--font-Color);
+  }
+  .logoSmall {
+    width: 310px;
+    height: 310px;
+  }
+  .titleHeader {
+    display: grid;
+    grid-template-rows: 130px 42px;
+    height: 85px;
+    width: 1200px;
+    font-size: 100px;
+    color: var(--background-Main);
+  }
+  .companyHeader {
+    font-weight: 700;
+    margin-top: 5px;
+  }
+  .timer {
+    display: grid;
+    grid-template-columns: 2000px 600px;
+    font-size: 120px;
+    margin-top: 15px;
+  }
+  .clock {
+    color: #16171A;
+    font-weight: 500;
+  }
+  .hour {
+    display: grid;
+    grid-template-columns: 600px 200px;
+    padding-left: 50px;
+  }
+  .formatHour {
+    font-size: 250px;
+    color: #16171A;
+  }
+  .formatIndicator {
+    font-size: 150px;
+    color: #16171A;
+    padding-top: 100px;
+  }
+}
+
+@media screen and (max-width: 4096px) {
+  .header-container {
+    display: grid;
+    grid-template-columns: 300px 1400px 400px;
+    background: linear-gradient(to right, #219A97 0, #219A97 7%, #26ACA9 7%, #26ACA9 40%, #D4EEEE 40%, #D4EEEE 100%);
+    width: 100vw;
+    height: 320px;
+    padding: 28px;
+    font-size: 18px;
+    color: var(--font-Color);
+  }
+  .logoSmall {
+    width: 240px;
+    height: 240px;
+  }
+  .titleHeader {
+    display: grid;
+    grid-template-rows: 80px 42px;
+    height: 85px;
+    width: 1000px;
+    font-size: 60px;
+    color: var(--background-Main);
+  }
+  .companyHeader {
+    font-weight: 700;
+    margin-top: 5px;
+  }
+  .timer {
+    display: grid;
+    grid-template-columns: 1650px 600px;
+    font-size: 80px;
+    margin-top: 15px;
+  }
+  .clock {
+    color: #16171A;
+    font-weight: 500;
+  }
+  .hour {
+    display: grid;
+    grid-template-columns: 400px 200px;
+    padding-left: 50px;
+  }
+  .formatHour {
+    font-size: 160px;
+    color: #16171A;
+  }
+  .formatIndicator {
+    font-size: 120px;
+    color: #16171A;
+    padding-top: 40px;
+  }
+}
+
+@media screen and (max-width: 3840px) {
+  .header-container {
+    display: grid;
+    grid-template-columns: 230px 1400px 400px;
+    background: linear-gradient(to right, #219A97 0, #219A97 6%, #26ACA9 6%, #26ACA9 40%, #D4EEEE 40%, #D4EEEE 100%);
+    width: 100vw;
+    height: 200px;
+    padding: 28px;
+    font-size: 18px;
+    color: var(--font-Color);
+  }
+  .logoSmall {
+    width: 160px;
+    height: 160px;
+  }
+  .titleHeader {
+    display: grid;
+    grid-template-rows: 50px 42px;
+    height: 85px;
+    width: 1000px;
+    font-size: 60px;
+    color: var(--background-Main);
+  }
+  .companyHeader {
+    font-weight: 700;
+    margin-top: 5px;
+  }
+  .timer {
+    display: grid;
+    grid-template-columns: 1550px 200px;
+    font-size: 55px;
+  }
+  .clock {
+    color: #16171A;
+    font-weight: 500;
+  }
+  .hour {
+    display: grid;
+    grid-template-columns: 300px 100px;
+    padding-left: 28px;
+  }
+  .formatHour {
+    font-size: 120px;
+    color: #16171A;
+  }
+  .formatIndicator {
+    font-size: 90px;
+    color: #16171A;
+    padding-top: 30px;
+  }
+}
+
+@media screen and (max-width: 1920px) {
+  .header-container {
+    display: grid;
+    grid-template-columns: 150px 630px 220px;
+    background: linear-gradient(to right, #219A97 0, #219A97 7%, #26ACA9 7%, #26ACA9 40%, #D4EEEE 40%, #D4EEEE 100%);
+    width: 100vw;
+    height: 130px;
+    padding: 10px;
+    font-size: 20px;
+    color: var(--font-Color);
+  }
+  .logoSmall {
+    width: 110px;
+    height: 110px;
+  }
+  .titleHeader {
+    display: grid;
+    grid-template-rows: 40px 42px;
+    height: 150px;
+    width: 500px;
+    font-size: 35px;
+    color: var(--background-Main);
+  }
+  .companyHeader {
+    font-weight: 700;
+    margin-top: 5px;
+  }
+  .timer {
+    display: grid;
+    grid-template-columns: 840px 200px;
+    font-size: 35px;
+    margin-top: 15px;
+  }
+  .clock {
+    color: #16171A;
+    font-weight: 500;
+  }
+  .hour {
+    display: grid;
+    grid-template-columns: 150px 100px;
+    padding-left: 28px;
+  }
+  .formatHour {
+    font-size: 60px;
+    color: #16171A;
+  }
+  .formatIndicator {
+    font-size: 35px;
+    color: #16171A;
+    padding-top: 25px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .header-container {
+    display: grid;
+    grid-template-columns: 100px 320px 2px;
+    background: linear-gradient(to right, #219A97 0, #219A97 9%, #26ACA9 9%, #26ACA9 40%, #D4EEEE 40%, #D4EEEE 100%);
+    width: 100vw;
+    height: 100px;
+    padding: 10px;
+    font-size: 6px;
+    color: var(--font-Color);
+  }
+  .logoSmall {
+    width: 70px;
+    height: 70px;
+  }
+  .titleHeader {
+    display: grid;
+    grid-template-rows: 20px 42px;
+    height: 85px;
+    width: 500px;
+    font-size: 20px;
+    color: var(--background-Main);
+  }
+  .companyHeader {
+    font-weight: 700;
+    margin-top: 5px;
+  }
+  .timer {
+    display: grid;
+    grid-template-columns: 400px 200px;
+    font-size: 20px;
+    margin-top: 15px;
+  }
+  .clock {
+    color: #16171A;
+    font-weight: 500;
+  }
+  .hour {
+    display: grid;
+    grid-template-columns: 100px 100px;
+    padding-left: 28px;
+  }
+  .formatHour {
+    font-size: 40px;
+    color: #16171A;
+  }
+  .formatIndicator {
+    font-size: 25px;
+    color: #16171A;
+    padding-top: 15px;
+  }
+}

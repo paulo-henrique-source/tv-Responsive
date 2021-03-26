@@ -6,20 +6,16 @@
   overflow: hidden;
 }
 
-.imageItem {
-  margin: 0 auto;
-}
-
 .gridTemplateTwo {
   display: flex;
   justify-content: center;
 }
 
-.login-text {
+.gridTemplateContent {
   margin-top: 10px;
 }
 
-.img {
+.home-content {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -34,306 +30,182 @@
   font-weight: 700;
 }
 
-.gridImage {
-  display: grid;
-  grid-template-rows: 20% 80%;
-}
-
-.text-component-title {
-  margin-bottom: 40px;
-}
-
-.text-component {
-  margin-bottom: 30px;
-  font-weight: 400;
-  font-size: 1rem;
-}
-
-.code-component {
-  margin-top: 30px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  letter-spacing: 1rem;
-  color: var(--code-Color);
-  background: rgba(38, 172, 169, 0.2);
-  padding: 25px 0 25px 0;
-  border-radius: 97px;
-}
-
-.text-link {
-  text-decoration: underline;
-}
-
 .patients {
   margin: 20px 60px;
   font-size: 35px;
   color: var(--font-Color);
 }
 
-/* @media screen and (max-width: 5120px) {
-  .container {
+@media screen and (max-width: 5120px) {
+  .home-container {
     width: 100vw;
     height: 100vh;
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 40% 60%;
     overflow: hidden;
   }
+  .gridTemplateTwo {
+    display: flex;
+    justify-content: center;
+  }
+  .gridTemplateContent {
+    margin-top: 20px;
+  }
+  .home-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--background-Schedule);
+    padding-bottom: 180px;
+  }
   .gridTemplateTwo h2 {
+    margin-top: 20px;
     color: var(--font-Color);
+    font-size: 2rem;
     font-weight: 700;
-    font-size: 10rem;
-    margin: 110px 0;
   }
-  .logo {
-    width: 900px;
-  }
-  .medicineCuate {
-    width: 1530px;
-  }
-  .img {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: linear-gradient(to bottom, #219A97 82%, #EBEBEB 18%);
-  }
-  .text-component-title {
-    margin-bottom: 80px;
-    width: 1700px;
-  }
-  .text-component {
-    padding-bottom: 88px;
-    font-weight: 400;
-    font-size: 3.5rem;
-    width: 2600px;
-    margin: 0 auto;
-  }
-  .code-component {
-    display: flex;
-    font-size: 80px;
-    justify-content: center;
-    align-items: center;
-    letter-spacing: 3rem;
-    color: var(--code-Color);
-    background: rgba(38, 172, 169, 0.2);
-    padding: 80px 0px 80px 0px;
-    border-radius: 200px;
-    width: 1700px;
+  .patients {
+    margin: 20px 60px;
+    font-size: 90px;
+    color: var(--font-Color);
   }
 }
 
 @media screen and (max-width: 4096px) {
-  .container {
+  .home-container {
     width: 100vw;
     height: 100vh;
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 40% 60%;
     overflow: hidden;
   }
+  .gridTemplateTwo {
+    display: flex;
+    justify-content: center;
+  }
+  .gridTemplateContent {
+    margin-top: 200px;
+  }
+  .home-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--background-Schedule);
+    padding-bottom: 180px;
+  }
   .gridTemplateTwo h2 {
+    margin-top: 20px;
     color: var(--font-Color);
+    font-size: 2rem;
     font-weight: 700;
-    font-size: 9rem;
-    margin: 80px 0;
   }
-  .logo {
-    width: 900px;
-  }
-  .medicineCuate {
-    width: 1510px;
-  }
-  .img {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: linear-gradient(to bottom, #219A97 82%, #EBEBEB 18%);
-  }
-  .text-component-title {
-    margin-bottom: 80px;
-    width: 1500px;
-  }
-  .text-component {
-    padding-bottom: 88px;
-    font-weight: 400;
-    font-size: 3.6rem;
-    width: 2150px;
-    margin: 0 auto;
-  }
-  .code-component {
-    margin-left: 50px;
-    display: flex;
-    font-size: 80px;
-    justify-content: center;
-    align-items: center;
-    letter-spacing: 3rem;
-    color: var(--code-Color);
-    background: rgba(38, 172, 169, 0.2);
-    padding: 80px 0px 80px 0px;
-    border-radius: 200px;
-    width: 1700px;
+  .patients {
+    margin: 20px 60px;
+    font-size: 70px;
+    color: var(--font-Color);
   }
 }
 
 @media screen and (max-width: 3840px) {
-  .container {
+  .home-container {
     width: 100vw;
     height: 100vh;
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 40% 60%;
     overflow: hidden;
   }
+  .gridTemplateTwo {
+    display: flex;
+    justify-content: center;
+  }
+  .gridTemplateContent {
+    margin-top: 200px;
+  }
+  .home-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--background-Schedule);
+    padding-bottom: 180px;
+  }
   .gridTemplateTwo h2 {
+    margin-top: 20px;
     color: var(--font-Color);
+    font-size: 2rem;
     font-weight: 700;
-    font-size: 7.4rem;
-    margin: 150px 0;
   }
-  .logo {
-    width: 800px;
-  }
-  .medicineCuate {
-    width: 1560px;
-  }
-  .img {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: linear-gradient(to bottom, #219A97 83%, #EBEBEB 17%);
-  }
-  .text-component-title {
-    margin-bottom: 80px;
-    width: 1230px;
-  }
-  .text-component {
-    padding-bottom: 88px;
-    font-weight: 400;
-    font-size: 3.2rem;
-    width: 1800px;
-    margin: 0 auto;
-  }
-  .code-component {
-    margin: 0 auto;
-    display: flex;
-    font-size: 80px;
-    justify-content: center;
-    align-items: center;
-    letter-spacing: 3rem;
-    color: var(--code-Color);
-    background: rgba(38, 172, 169, 0.2);
-    padding: 80px 0px 80px 0px;
-    border-radius: 200px;
-    width: 1700px;
+  .patients {
+    margin: 20px 60px;
+    font-size: 70px;
+    color: var(--font-Color);
   }
 }
 
 @media screen and (max-width: 1920px) {
+  .home-container {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    overflow: hidden;
+  }
+  .gridTemplateTwo {
+    display: flex;
+    justify-content: center;
+  }
+  .gridTemplateContent {
+    margin-top: 40px;
+  }
+  .home-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--background-Schedule);
+    padding-bottom: 180px;
+  }
   .gridTemplateTwo h2 {
+    margin-top: 10px;
     color: var(--font-Color);
+    font-size: 2rem;
     font-weight: 700;
-    font-size: 2.4rem;
-    margin: 0;
   }
-  .logo {
-    width: 300px;
+  .patients {
+    margin: 10px 20px;
+    font-size: 40px;
+    color: var(--font-Color);
   }
-  .medicineCuate {
-    width: 760px;
+}
+
+@media screen and (max-width: 1024px) {
+  .home-container {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    overflow: hidden;
   }
-  .img {
+  .gridTemplateTwo {
+    display: flex;
+    justify-content: center;
+  }
+  .gridTemplateContent {
+    margin-top: 40px;
+  }
+  .home-content {
     display: flex;
     justify-content: center;
     align-items: center;
     background: var(--background-Schedule);
   }
-  .text-component-title {
-    margin-bottom: 40px;
-    width: 400px;
+  .gridTemplateTwo h2 {
+    margin-top: 10px;
+    color: var(--font-Color);
+    font-size: 2rem;
+    font-weight: 700;
   }
-  .text-component {
-    padding-bottom: 48px;
-    font-weight: 400;
-    font-size: 1.6rem;
-    width: 900px;
-    margin: 0 auto;
-  }
-  .code-component {
-    margin-top: 60px;
-    display: flex;
+  .patients {
+    margin: 10px 20px;
     font-size: 20px;
-    justify-content: center;
-    align-items: center;
-    letter-spacing: 2rem;
-    color: var(--code-Color);
-    background: rgba(38, 172, 169, 0.2);
-    padding: 40px 0 40px 0;
-    border-radius: 97px;
-    width: 800px;
+    color: var(--font-Color);
   }
 }
-
-@media screen and (max-width: 1024px) {
-  .gridTemplateTwo h2 {
-    font-weight: 700;
-    color: var(--font-Color);
-    font-size: 1rem;
-  }
-  .logo {
-    width: 300px;
-  }
-  .medicineCuate {
-    width: 500px;
-  }
-  .img {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: linear-gradient(to bottom, #219A97 77%, #EBEBEB 23%);
-  }
-  .text-component-title {
-    padding-bottom: 10px;
-    width: 500px;
-    margin: 0 auto;
-  }
-  .text-component {
-    padding-bottom: 48px;
-    font-weight: 400;
-    font-size: 1.1rem;
-    width: 490px;
-    margin: 0 auto;
-  }
-  .text-link {
-    word-wrap: break-word;
-  }
-  .code-component {
-    margin-top: 10px;
-    display: flex;
-    font-size: 8px;
-    justify-content: center;
-    align-items: center;
-    letter-spacing: 1.5rem;
-    color: var(--code-Color);
-    background: rgba(38, 172, 169, 0.2);
-    padding: 25px 0 25px 0;
-    border-radius: 97px;
-    width: 400px;
-    margin: 0 auto;
-  }
-} */
-
-/* @media screen and (max-width: 900px) {
-  .container {
-    grid-template-columns: 1fr;
-  }
-  .logo {
-    display: none;
-  }
-  .medicineCuate {
-    display: none;
-  }
-  .wave {
-    display: none;
-  }
-  .gridTemplateTwo {
-    justify-content: center;
-  }
-} */

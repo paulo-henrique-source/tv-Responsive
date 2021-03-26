@@ -20,7 +20,7 @@ const Schedule = () => {
           <div className="iconDoor">
             <RiDoorClosedLine className="iconDoor" />
           </div>
-          <div className="userText">
+          <div className="doorText">
             <h4>Sala 01</h4>
           </div>
         </div>

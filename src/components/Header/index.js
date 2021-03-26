@@ -11,7 +11,7 @@ const Header = () => {
           <img className="logoSmall" src={logoSmall} alt="No_Data" />
         </div>
         <div className="titleHeader">
-          <div className="titleHeader">Clinica:</div>
+          <div>Clinica:</div>
           <div className="companyHeader">Loren Ipsun dolor Mists</div>
         </div>
         <div className="timer">
